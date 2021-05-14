@@ -27,7 +27,7 @@ impl Alert {
     pub fn get() -> Result<Option<Self>> {
         let client = blocking::Client::new();
         let resp = client
-            .get("http://localhost:3000")
+            .get("https://www.oref.org.il/WarningMessages/alert/alerts.json")
             .header(REFERER, "https://www.oref.org.il/12481-en/Pakar.aspx")
             .header("X-Requested-With", "XMLHttpRequest")
             .header(
