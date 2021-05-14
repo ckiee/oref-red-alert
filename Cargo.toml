@@ -1,6 +1,6 @@
 [package]
 name = "oref-red-alert"
-version = "1.0.0"
+version = "1.0.1"
 description = "Israel Home Front Command API wrapper"
 readme = "README.md"
 repository = "https://github.com/ronthecookie/oref-red-alert"
